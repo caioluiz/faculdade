@@ -2,7 +2,7 @@
 #define mensagemNota "Insira a nota do aluno: "
 
 int main(){
-	float nota = 0;
+	float nota;
 	int s;
 	
 	printf("%s\n", mensagemNota);

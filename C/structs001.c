@@ -34,4 +34,13 @@ int main(){
 		fflush(stdin);
 	}
 	system("cls");
+	
+	puts("Seus Dados: ");
+	for(i = 0; i < TAMA; i++){
+		printf("---------- Pessoa %i ----------\n", i+1);
+		printf("\tNome: %s\n", lista[i].nome);
+		printf("\tIdade: %i\n", lista[i].idade);
+		printf("\tPeso: %.2f\n", lista[i].peso);
+	}
+	printf("------------------------------\n");
 }
